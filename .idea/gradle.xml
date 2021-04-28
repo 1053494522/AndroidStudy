@@ -16,7 +16,9 @@
             <option value="$PROJECT_DIR$/mybutton" />
             <option value="$PROJECT_DIR$/myedittext" />
             <option value="$PROJECT_DIR$/myimageview" />
+            <option value="$PROJECT_DIR$/mylinearlayout" />
             <option value="$PROJECT_DIR$/mynotification" />
+            <option value="$PROJECT_DIR$/mypopupwindow" />
             <option value="$PROJECT_DIR$/myprogressbar" />
             <option value="$PROJECT_DIR$/mytoolbar" />
           </set>
