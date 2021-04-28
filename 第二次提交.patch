@@ -1,0 +1,49 @@
+Index: app/src/main/java/com/example/myapplication/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/myapplication/MainActivity.java	(revision e016db7130897762c3e2cc4acf9d202dedbccd73)
++++ app/src/main/java/com/example/myapplication/MainActivity.java	(date 1619572634000)
+@@ -9,7 +9,6 @@
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+-
+         setContentView(R.layout.activity_main);
+     }
+ 
+Index: myalertdialog/src/main/res/layout/dialog_view.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- myalertdialog/src/main/res/layout/dialog_view.xml	(revision e016db7130897762c3e2cc4acf9d202dedbccd73)
++++ myalertdialog/src/main/res/layout/dialog_view.xml	(date 1619573431000)
+@@ -1,6 +1,20 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+-    android:layout_height="match_parent">
++<LinearLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="#ffff00"
++    android:orientation="horizontal">
++
++    <ImageView
++        android:src="@mipmap/ic_launcher"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++    />
++
++    <TextView
++        android:text="dialog_viewTest"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"/>
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++</LinearLayout>
+\ No newline at end of file
