@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/myapplication/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/myapplication/MainActivity.java	(revision 867913494cbe991750defbd7cbc89d0b057d4b28)
++++ app/src/main/java/com/example/myapplication/MainActivity.java	(date 1619570510000)
+@@ -9,6 +9,7 @@
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
++
+         setContentView(R.layout.activity_main);
+     }
+ }
+\ No newline at end of file
